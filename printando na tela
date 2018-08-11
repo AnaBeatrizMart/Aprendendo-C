@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void main () {
+
+         // Definindo a variavel n
+         int n = 13;
+
+         // Imprimindo a variavel "n"
+         printf ("%d", n);
+
+         // Imprimindo reasons why
+         printf (" reasons why ");
+
+         // Pausando
+         system ("pause");
+
+              }
+ 
