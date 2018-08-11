@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void main () {
+
+         // Definindo a variavel
+         int b = 3;
+
+         // Imprimindo a variavel "b"
+         printf ("%d", b);
+
+
+         // Pula linhas
+         printf ("\n");
+
+         // Imprimindo tigres tristes
+         printf ("tigres tristes");
+
+         // Pausando
+         system ("pause");
+
+              }
