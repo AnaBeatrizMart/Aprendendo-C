@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+// dando oi para o mundo 
+int main () {
+    printf ("Oi, mundo!");
+    return 0;
+            }
