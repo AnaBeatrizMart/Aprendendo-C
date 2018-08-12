@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void main () {
+
+     int s = 7;
+
+     // Printando a variável "s"
+     printf ("%d", s);
+
+     // Concatenando
+     printf ("\nS corresponde a: %d %d", s,s);
+
+     // Pulando linhas
+     printf ("\n");
+
+     // Printando
+     printf ("Deu certo!");
+
+     // Pausando o sistema
+     system ("pause");
+
+                }
