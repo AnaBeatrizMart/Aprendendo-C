@@ -1,0 +1,89 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+#include <stdbool.h>
+
+void main () {
+
+
+    // Definindo Variaveis
+    int a;
+    int b;
+    int c;
+    float d;
+    float e;
+    char f;
+    bool g;
+    bool h;
+
+    // Atribuindo valores
+    a = 99;
+    b = 26;
+    c = 9;
+    d = 11.1;
+    e = 21.12;
+    f = true;
+    g = true;
+
+    // Printando as variaveis int
+    printf("\n Qual eh o valor de A? = %d", a);
+    printf("\n Qual eh o valor de B? = %d", b);
+    printf("\n Qual eh o valor de C? = %d", c);
+
+    // Printando as variaveis float
+
+    printf("\n E D? = %f", d);
+    printf("\n E E? = %f", e);
+
+    // Printando as variaveis bool
+
+    printf("\n O valor de f = %d", f);
+    printf("\n O valor de g = %d", g);
+
+    // Lendo valores das variaveis int
+    scanf("%d", &a);
+    scanf("%d", &b);
+    scanf("%d", &c);
+
+    // Lendo valores das variaveis float
+    scanf("%f", &d);
+    scanf("%f", &e);
+
+    // Lendo os valores das variaveis bool
+    scanf("%d", &f);
+    scanf("%d", &f);
+
+    system("pause");
+
+    // Para fazer o mesmo, mas com numeros diferentes:
+
+        // Printando as variaveis int
+    printf("\n Qual eh o valor de A? = %d", a);
+    printf("\n Qual eh o valor de B? = %d", b);
+    printf("\n Qual eh o valor de C? = %d", c);
+
+    // Printando as variaveis float
+
+    printf("\n E D? = %f", d);
+    printf("\n E E? = %f", e);
+
+    // Printando as variaveis bool
+
+    printf("\n O valor de f = %d", f);
+    printf("\n O valor de g = %d\n", g);
+
+    // Lendo valores das variaveis int
+    scanf("%d", &a);
+    scanf("%d", &b);
+    scanf("%d", &c);
+
+    // Lendo valores das variaveis float
+    scanf("%f", &d);
+    scanf("%f", &e);
+
+    // Lendo os valores das variaveis bool
+    scanf("%d", &f);
+    scanf("%d", &f);
+
+    system("pause");
+                  }
