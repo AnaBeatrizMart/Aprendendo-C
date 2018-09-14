@@ -211,6 +211,33 @@ Depois utilize a função criada no exercício 1, para verificar a situação do
 8 horas por dia, crie uma função que calcula quanto esse desenvolvedor recebeu no mês atual, considerando
 que ele trabalhou 22 dias nesse mês.*/
 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+/* Define variaveis com o valor por hora
+e o mesmo multiplicado pelas horas trabalhadas
+por dia. */
+
+int porhora = 50;
+int dia = porhora * 8;
+int mes;
+
+// Solicita a quantidade de dias a ser calculado
+cout << "Quantos dias foram trabalhados?";
+
+// Atribui o valor digitado ao mês
+cin >> mes;
+
+// Multiplica o valor diario pela quantidade de dias e imprime
+cout <<"O desenvolvedor receberá R$" << mes * dia << " este mês.";
+}
+
+   
+
 /* Exercício 14 - Uma empresa de aviação possui um tipo de avião que comporta 10 pessoas. Crie um programa
 que possui uma função, cujos parâmetros de entrada são: o número de aviões disponíveis e o número de
 passageiros para serem transportados. Essa função deverá calcular se os aviões conseguem comportar essas
