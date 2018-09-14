@@ -170,36 +170,54 @@ aos times, para que seja feita a soma das pontuações de cada um.
 
 Revisão de Função
 
-Exercício 11 - Crie um programa que faz a leitura da nota final de um aluno e verifica se ele 
+/* Exercício 11 - Crie um programa que faz a leitura da nota final de um aluno e verifica se ele 
 foi aprovado, reprovado ou se está de exame especial em uma disciplina. Os critérios que devem
 ser considerados são: Nota acima de 70 indica aprovação, nota abaixo de 40 indica reprovação e
-nota entre 40 e 59 indica exame especial.
+nota entre 40 e 59 indica exame especial. */
 
-Dicas: Utilize o cin, para fazer a leitura da nota, conforme mostrado em sala.
-Utilize condições com o comando if para verificar a nota lida pelo comando cin.
-É indicado que seja feita uma função para verificar a situação do aluno. Uma das formas
-é a função receber a nota do aluno como parâmetro e retornar um string contendo um texto
-referente à situação do aluno.
 
-Exercício 12 - Faça uma alteração no seu programa anterior, para que ele utilize as notas individuais
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int nota;     // cria a variavel inteira nota
+    
+    cout << "Qual foi a nota? ";     // solicita a nota
+    
+    cin >> nota;      // recebe a nota inserida
+    
+    if (nota<39)
+    cout <<"aluno reprovado";      // imprime "aluno aprovado caso a nota seja maior do que 39 (de 40 pra cima)
+    
+    if (nota>69)
+    cout <<"aluno aprovado";      // imprime "aluno reaprovado caso a nota seja menor do que 69 (de 70 pra cima)
+    
+    else 
+    cout << "aluno em exame";      // imprime "aluno em exame" nos outros casos
+}
+
+
+/* Exercício 12 - Faça uma alteração no seu programa anterior, para que ele utilize as notas individuais
 do aluno em cada atividade da disciplina, e calcule o resultado final, para que posteriormente possa
 ser verificada a aprovação do aluno.
 
 Dixas: Crie um vetor, contendo um conjunto de notas. Faça um loop que percorre esse conjunto de
 notas e faz o seu somatório.
-Depois utilize a função criada no exercício 1, para verificar a situação do aluno.
+Depois utilize a função criada no exercício 1, para verificar a situação do aluno.*/
 
-Ecercício 13 - Um desenvolvedor recebe 50 reais por hora trabalhada. Considerando que ele trabalhada
+/* Ecercício 13 - Um desenvolvedor recebe 50 reais por hora trabalhada. Considerando que ele trabalhada
 8 horas por dia, crie uma função que calcula quanto esse desenvolvedor recebeu no mês atual, considerando
-que ele trabalhou 22 dias nesse mês.
+que ele trabalhou 22 dias nesse mês.*/
 
-Exercício 14 - Uma empresa de aviação possui um tipo de avião que comporta 10 pessoas. Crie um programa
+/* Exercício 14 - Uma empresa de aviação possui um tipo de avião que comporta 10 pessoas. Crie um programa
 que possui uma função, cujos parâmetros de entrada são: o número de aviões disponíveis e o número de
 passageiros para serem transportados. Essa função deverá calcular se os aviões conseguem comportar essas
 pessoas, e caso não consiga, quantas ficarão para as próximas viagens. Faça uma simulação na qual os
-aviões comportam o número de pessoas e outra na qual ele não comporta.
+aviões comportam o número de pessoas e outra na qual ele não comporta.*/
 
-Exercício 15 - Um hospital consegue atender 20 pessoas por hora. Considerando que no momento em que
+/* Exercício 15 - Um hospital consegue atender 20 pessoas por hora. Considerando que no momento em que
 o hospital foi aberto chegaram 100 pessoas, faça um programa para calcular quanto tempo o paciente com
 a senha 68 irá demorar para ser atendido.
 
@@ -207,15 +225,15 @@ Dicas: Faça um loop while, que inicia com 20 pessoas sendo atendidas sem espera
 A cada iteração ele deverá aumentar em 20 o número de pessoas sendo atendidas e em 1 o número de horas.
 Caso o número de pessoas atendidas seja maior do que o número da senha que se deseja verificar, isso
 indica que aquele paciente entrou em atendimento na iteração atual, e esperou o número de horas 
-acumuladas até o momento.
+acumuladas até o momento.*/
 
-Exercício 16 - Faça um programa em C++ que percorre um conjunto de números e informa qual deles é o
-maior.
+/* Exercício 16 - Faça um programa em C++ que percorre um conjunto de números e informa qual deles é o
+maior.*/
 
-Exercício 17 - Faça um programa em C++ que executa a mesma operação do primeiro, porém informa a
-posição do maior número, e não o seu valor.
+/* Exercício 17 - Faça um programa em C++ que executa a mesma operação do primeiro, porém informa a
+posição do maior número, e não o seu valor.*/
 
-Exercício 18 - Faça um ajuste no programa 16, para que ele também informe o menor valor da lista.
+/* Exercício 18 - Faça um ajuste no programa 16, para que ele também informe o menor valor da lista.*/
 
 /* Exercício 19 - A equipe de uma contrutora consegue entregar 100 metros quadrados construídos por dia.
 Com base nisso, faça um programa que possui uma função para efetuar o cálculo do tempo necessário
@@ -239,8 +257,8 @@ int main()
     cout <<tempo<< " dias";
 }
 
-Exercício 20 - Gere um conjunto de 10 números inteiros de forma aleatória, e verifique qual é o maior
-valor gerado.
+/* Exercício 20 - Gere um conjunto de 10 números inteiros de forma aleatória, e verifique qual é o maior
+valor gerado. */
 
 Exemplo de geração de números aleatórios:
 
