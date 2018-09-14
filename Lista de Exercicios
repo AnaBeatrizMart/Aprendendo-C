@@ -1,0 +1,138 @@
+/* Exercício 1 - Crie um programa em C++, que recebe uma palavra como parâmetro e imprime. */
+
+#include <iostream>
+using namespace std;
+
+int main () { // inicia o codigo
+
+         // criando uma variavel de texto
+         string nome;
+
+         // Imprimindo uma mensagem para receber a variavel
+         cout <<"Qual é o seu nome?"<< "\n";
+
+         // Recebendo o nome que foi digitado
+         cin >> nome;
+        
+        // Devolvendo a palavra digitada
+        cout <<"Olá, "<< nome <<". Como vai?";
+
+         // Pausando
+         system ("pause");
+
+              }
+   
+/* Exercício 2 - Crie um programa em C++ que atribui o valor 20 para uma variável inteira, o valor
+ 30 para outra variável inteira e some esses dois valores e armazene em outra variável. */
+
+#include <iostream>
+
+using namespace std;
+
+int main () { // inicia o codigo
+
+         // Criando duas variaveis inteiras
+         int a = 20;
+         int b = 30;
+
+        // Criando a variavel inteira que vai somar
+        int soma = a + b;
+
+         // Imprimindo o resultado
+        cout <<"O resultado de a+b é "<< soma <<".";
+
+              }
+              
+
+/* Exercício 3 - Crie um programa em C++ com uma variável do tipo String, contendo um nome qualquer.
+Crie uma segunda variável do tipo Float, contendo o valor do salário dessa pessoa. Imprima:
+A pessoa <Nome da Pessoa>, recebe R$<Salário da pessoa>. */
+
+#include <iostream>
+
+using namespace std;
+
+int main () { // inicia o codigo
+
+         // Criando uma variavel de texto
+        string funcionario = "Mariana";
+        
+         // Criando uma variavel tipo float para o salario
+        float salario = 1500;
+        
+         // Imprimindo o resultado
+        cout << funcionario << " recebe R$" << salario;
+
+              }
+              
+/* Exercício 4 - Crie um programa em C++ que compara o valor do salário de duas pessoas, e informa
+qual salário é maior. /*
+
+#include <iostream>
+
+using namespace std;
+
+int main () { // inicia o codigo
+
+         // Criando duas variaveis do tipo inteira para o salario
+        int salario1 = 5100;
+        int salario2 = 5100;
+        
+         // Se o primeiro salario for maior...
+        if (salario1 > salario2) 
+        cout << "Maior salario: 1";
+        
+        // Se o segundo salario for maior...
+        if (salario1 < salario2)
+        cout <<"Maior salario: 2";
+        
+        // Se forem iguais
+        if (salario1 = salario2)
+        cout <<"Iguais.";
+        
+              }
+              
+              
+/* Exercício 5 - Crie um programa em C++ que recebe a pontuação de um usuário e a de outro usuário
+e verifica quem ganhou o jogo, com base na maior pontuação. */
+
+#include <iostream> 
+
+using namespace std; 
+
+int somapontos (int pontos[] int numjogos]) 
+    { 
+
+        // Criando duas variaveis inteiras
+        int resultado = 0; 
+        int controle = 0; 
+
+        // Enquanto a variavel controle for maior do que numjogos
+        while (controle < numjogos) {  
+
+        resultado = resultado + pontos[controle]; 
+        controle = controle + 1; 
+
+        // Pausando os resultados
+        return resultado; 
+    } 
+    }
+    
+int main() // Iniciando a funcao
+
+{ 
+   // Atribuindo valores/pontos aos participantes
+   int part1 [5] = {3,3,1,1,3}; 
+   int part2 [5] = {1,1,3,3,1}; 
+
+   // Se os pontos do part1 forem maiores que os do part2
+   if somapontos (part1) > somapontos (part2) 
+   cout << "Parabéns, Participante 1!" 
+
+   // Senão...
+   else 
+   cout << "Parabéns, participante 2!" 
+   
+   else  
+   cout << "Empatou!"
+} 
