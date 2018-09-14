@@ -217,9 +217,27 @@ posição do maior número, e não o seu valor.
 
 Exercício 18 - Faça um ajuste no programa 16, para que ele também informe o menor valor da lista.
 
-Exercício 19 - A equipe de uma contrutora consegue entregar 100 metros quadrados construídos por dia.
+/* Exercício 19 - A equipe de uma contrutora consegue entregar 100 metros quadrados construídos por dia.
 Com base nisso, faça um programa que possui uma função para efetuar o cálculo do tempo necessário
-para construir um projeto com 2326 metros quadrados. Esse tempo deve ser fornecido em dias.
+para construir um projeto com 2326 metros quadrados. Esse tempo deve ser fornecido em dias.*/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    // Definindo uma variavel para os metros e uma para os dias
+    // O uso do float se deve ao resultado não ser um numero inteiro
+    float m = 2326;
+    float dia = 100;
+    
+    // Divide a quantidade de metros pelo que é produzido diariamente
+    float tempo = m / dia;
+    
+    // Imprime o resultado
+    cout <<tempo<< " dias";
+}
 
 Exercício 20 - Gere um conjunto de 10 números inteiros de forma aleatória, e verifique qual é o maior
 valor gerado.
