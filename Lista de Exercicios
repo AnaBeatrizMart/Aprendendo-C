@@ -302,6 +302,23 @@ indica que aquele paciente entrou em atendimento na iteração atual, e esperou 
 acumuladas até o momento.*/
 
 
+#include <iostream> // biblioteca padrão
+using namespace std;
+
+int main()
+{
+
+int num_atendimentos = 20;
+int pos_fila = 68;
+int num_horas_espera = 0;
+
+num_horas_espera = pos_fila/num_atendimentos;
+
+cout << num_horas_espera;
+    
+}
+
+
 
 /* Exercício 16 - Faça um programa em C++ que percorre um conjunto de números e informa qual deles é o
 maior.*/
