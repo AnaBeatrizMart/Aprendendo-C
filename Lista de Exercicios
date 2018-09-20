@@ -267,6 +267,7 @@ passageiros para serem transportados. Essa função deverá calcular se os aviõ
 pessoas, e caso não consiga, quantas ficarão para as próximas viagens. Faça uma simulação na qual os
 aviões comportam o número de pessoas e outra na qual ele não comporta.*/
 
+
 #include <iostream> // biblioteca padrão
 using namespace std;
 
@@ -274,8 +275,8 @@ string calcula_avioes (int num_pessoas, int num_avioes) {
     int num_lugares = 10 * num_avioes;
     if (num_lugares >= num_pessoas){
     return "Coube";}
-    else { cout << "Faltaram" << num_pessoas - num_lugares;
-    return "Não coube";}
+    else { cout << "Faltaram " << num_pessoas - num_lugares << ",";
+    return " não coube";}
     
 }
 
@@ -283,12 +284,12 @@ string calcula_avioes (int num_pessoas, int num_avioes) {
 int main()
 {
 
-int num_pessoas = 100;
-int num_avioes = 10;
+int num_pessoas = 94;
+int num_avioes = 9;
 
 cout << calcula_avioes (num_pessoas, num_avioes);
-
-
+    
+}
 
 /* Exercício 15 - Um hospital consegue atender 20 pessoas por hora. Considerando que no momento em que
 o hospital foi aberto chegaram 100 pessoas, faça um programa para calcular quanto tempo o paciente com
@@ -299,6 +300,8 @@ A cada iteração ele deverá aumentar em 20 o número de pessoas sendo atendida
 Caso o número de pessoas atendidas seja maior do que o número da senha que se deseja verificar, isso
 indica que aquele paciente entrou em atendimento na iteração atual, e esperou o número de horas 
 acumuladas até o momento.*/
+
+
 
 /* Exercício 16 - Faça um programa em C++ que percorre um conjunto de números e informa qual deles é o
 maior.*/
