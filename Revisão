@@ -1,0 +1,16 @@
+/* Um programa nada mais é do que passos que vão formar uma logica. 
+
+O iostream é uma biblioteca com varias funções.
+O namespace std é o padrão do c++, que chama um pacote com varias funções. Ela faz com que não seja necessário repetir std varias vezes, 
+como antes do cout.
+
+Uma variavel é algo que a gente vai dar um nome para referenciar ao longo do codigo.
+
+Um exemplo de variavel é int (inteiro), no codigo: int valor = 20; 
+
+Estruturas de condição.
+No codigo: inf (valor>10) {}
+           while (valor==20) {}
+           
+*/
+
