@@ -15,12 +15,12 @@ void main() {
     printf ("\nA subtracao de %d e %d = %d", a, b, a - b);
 
     // Dividindo
-    printf ("\nA divis„o de %d e %d = %d", a, b, a / b);
+    printf ("\nA divis√£o de %d e %d = %d", a, b, a / b);
 
     // Multiplicando
     printf ("\nA multiplicacao de %d e %d = %d", a, b, a * b);
 
-    // Resto da divis„o
+    // Resto da divis√£o
     printf ("\nO resto da divisao entre %d e %d = %d", a, b, a % b);
 
     // Valor absoluto
