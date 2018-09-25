@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+
+void main(){
+
+// Definindo as minhas variavies
+
+bool a = true;
+bool b = false;
+
+// Se a for verdadeiro
+if (a) {
+printf ("\nverdadeiro");
+}
+
+// Se a for falso
+if(b) {
+    printf ("\neh verdadeiro");
+}
+else {
+    printf("\neh falso");
+}
+
+
+// Comparando uma falsidade
+if (!b) {
+    printf ("\nb eh falso");
+}
+system("pause");
+
+}
