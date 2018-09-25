@@ -9,7 +9,7 @@ Uma variavel é algo que a gente vai dar um nome para referenciar ao longo do co
 Um exemplo de variavel é int (inteiro), no codigo: int valor = 20; 
 
 Estruturas de condição.
-No codigo: inf (valor>10) {}
+No codigo: if (valor>10) {}
            while (valor==20) {}
            
 */
