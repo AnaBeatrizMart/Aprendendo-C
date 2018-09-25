@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+// Funcao principal do programa
+
+void main() {
+
+    // Definindo variaveis
+   int a = 24, b = 6;
+
+    // Somando
+    printf ("A soma de %d e %d = %d", a, b, a + b);
+
+    // Subtraindo
+    printf ("\nA subtracao de %d e %d = %d", a, b, a - b);
+
+    // Dividindo
+    printf ("\nA divisão de %d e %d = %d", a, b, a / b);
+
+    // Multiplicando
+    printf ("\nA multiplicacao de %d e %d = %d", a, b, a * b);
+
+    // Resto da divisão
+    printf ("\nO resto da divisao entre %d e %d = %d", a, b, a % b);
+
+    // Valor absoluto
+    printf ("\nO valor absoluto de -3 e igual a %d", abs(-3));
+
+    // Pausando o sistema
+    system("pause");
+}
