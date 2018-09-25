@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void main () {
+
+// Criando variaveis
+
+int a = 10;
+
+// Conectivo logico E, ou and
+// Se uma comparacao for falsa nao entra no bloco
+if (a > 5 && a < 15) {
+    printf("\nA variavel a esta entre 5 e 15");
+}
+
+
+// Conectivo logico ou/or
+// Se uma condição vor verdadeira ja entra no bloco
+
+if (a > 5 || a < 15) {
+    printf("\nA variavel eh maior que 5 ou 15");
+}
+
+// Misturando conectivos
+
+if ( (a > 5 && a < 15) || a == 20) {
+    printf("\nA variavel a ou esta entre 5 e 15 ou eh 29");
+}
+
+// Pausando o sistema
+system ("pause");}
